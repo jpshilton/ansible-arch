@@ -2,7 +2,8 @@
 
 - name: install tools
   become: true
-  dnf:
+  pacman:
+    update_cache: yes
     name:
       # cli
       - bat
