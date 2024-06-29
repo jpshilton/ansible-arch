@@ -10,7 +10,6 @@
       - curl
       - git-delta
       - exa
-      - fd-find
       - direnv
       - fzf
       - fzy
