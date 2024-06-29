@@ -5,14 +5,8 @@
   dnf:
     name:
       # cli
-      - aria2
-      - aspell
       - bat
-      - bandwhich
-      - bottom
-      - ctop
       - curl
-      - gh
       - git-delta
       - exa
       - fd-find
@@ -25,22 +19,12 @@
       - gnuplot
       - htop
       - httpie
-      - hub
-      - hyperfine
       - jq
       - lazydocker
       - lazygit
       - neovim
-      - nnn
       - nodejs
-      - ncdu
-      - osmium-tool
-      - pass
-      - procs
-      - qemu
-      - ranger
       - ripgrep
-      - shfmt
       - tmux
       - wget
       - wezterm
