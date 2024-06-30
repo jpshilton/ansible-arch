@@ -18,5 +18,6 @@
       - xdg-desktop-portal-hyprland
 
 - copy:
+    user: jp
     src: "{{ role_path }}/files/hyprland.conf"
     dest: ~/.config/hypr/hyprland.conf
