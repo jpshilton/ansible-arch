@@ -16,3 +16,7 @@
       - wayland
       - wofi
       - xdg-desktop-portal-hyprland
+
+- copy:
+    src: "{{ role_path }}/files/foo.conf"
+    dest: ~/.config/hypr/hyprland.conf
