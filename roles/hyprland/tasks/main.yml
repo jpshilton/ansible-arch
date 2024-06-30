@@ -1,0 +1,7 @@
+- name: install hyprland
+  become: true
+  package:
+    update_cache: yes
+    name:
+      - hyprland
+

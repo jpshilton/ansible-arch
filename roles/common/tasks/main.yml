@@ -16,7 +16,6 @@
       - gnuplot
       - htop
       - httpie
-      - lazydocker
       - lazygit
       - less
       - neovim
