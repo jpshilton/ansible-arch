@@ -12,6 +12,7 @@
       - git-delta
       - htop
       - httpie
+      - kitty
       - lazygit
       - less
       - neovim
