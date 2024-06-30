@@ -18,5 +18,6 @@
       - xdg-desktop-portal-hyprland
 
 - copy:
+    become_user: jp
     src: "{{ role_path }}/files/hyprland.conf"
     dest: "{{ ansible_env.HOME }}/.config/hyprland.conf"
