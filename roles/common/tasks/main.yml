@@ -1,5 +1,3 @@
-- import_tasks: repos.yml
-
 - name: install tools
   become: true
   pacman:
@@ -20,8 +18,6 @@
       - htop
       - httpie
       - jq
-      - lazydocker
-      - lazygit
       - neovim
       - nodejs
       - ripgrep
