@@ -3,7 +3,6 @@
   pacman:
     update_cache: yes
     name:
-      # cli
       - bat
       - curl
       - git-delta
@@ -17,7 +16,7 @@
       - gnuplot
       - htop
       - httpie
-      - jq
+      - less
       - neovim
       - nodejs
       - ripgrep
