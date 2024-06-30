@@ -3,17 +3,18 @@
   package:
     update_cache: yes
     name:
-      - hyprland
-      - waybar
-      - rofi
-      - wofi
-      - dunst
+      - chromium
       - dolphin
-      - xdg-desktop-portal-hyprland
+      - dunst
+      - hyprland
+      - hyprlang
+      - hyprpaper
       - qt5-wayland
       - qt6-wayland
-      - hyprpaper
-      - chromium
+      - rofi
       - ttf-font-awesome
+      - waybar
       - wayland
+      - wofi
+      - xdg-desktop-portal-hyprland
 

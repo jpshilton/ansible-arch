@@ -5,15 +5,11 @@
     name:
       - bat
       - curl
-      - git-delta
       - exa
-      - direnv
       - fzf
       - fzy
       - git
-      - git-lfs
-      - gnupg
-      - gnuplot
+      - git-delta
       - htop
       - httpie
       - lazygit
@@ -22,7 +18,7 @@
       - nodejs
       - ripgrep
       - tmux
-      - wget
       - wezterm
+      - wget
       - zoxide
 
