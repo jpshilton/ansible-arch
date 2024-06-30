@@ -17,4 +17,5 @@
       - wayland
       - wofi
       - xdg-desktop-portal-hyprland
+    state: absent
 
