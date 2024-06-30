@@ -20,4 +20,4 @@
 - copy:
     become_user: jp
     src: "{{ role_path }}/files/hyprland.conf"
-    dest: "{{ ansible_env.HOME }}/.config/hyprland.conf"
+    dest: "/home/jp/.config/hyprland.conf"
