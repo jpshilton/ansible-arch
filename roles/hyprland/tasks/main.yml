@@ -11,6 +11,7 @@
       - qt5-wayland
       - qt6-wayland
       - rofi
+      - sway
       - ttf-font-awesome
       - waybar
       - wayland
