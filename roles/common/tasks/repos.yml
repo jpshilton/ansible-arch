@@ -1,14 +1,24 @@
-- name: copr
+- name: Add COPR repositories using Pacman
+  hosts: all
   become: yes
-  community.general.copr:
-    name: "{{item}}"
-  loop:
-    - agriffis/neovim-nightly
-    - alebastr/sway-extras
-    - atim/bandwhich
-    - atim/bottom
-    - atim/lazydocker
-    - atim/lazygit
-    - fuhrmann/ctop
-    - lehrenfried/fzy
-    - eddsalkield/swaylock-effects
+  tasks:
+    - name: Add COPR repositories
+      pacman:
+        name: "https://copr-be.cloud.fedoraproject.org/results/{{ item.split('/')[0] }}/{{ item.split('/')[1] }}/arch/x86_64/{{ item.split('/')[1] }}-any.pkg.tar.zst"
+        state: present
+      loop:
+        - agriffis/neovim-nightly
+        - alebastr/sway-extras
+        - atim/bandwhich
+        - atim/bottom
+        - atim/lazydocker
+        - atim/lazygit
+        - fuhrmann/ctop
+        - lehrenfried/fzy
+
+    - name: Add GitHub CLI repository
+      pacman:
+        name: "https://cli.github.com/packages/rpm/gh-cli-{{item}}"
+        state: present
+      loop:
+        - repo
