@@ -7,7 +7,6 @@
       - dolphin
       - dunst
       - hyprland
-      - hyprlang
       - hyprpaper
       - qt5-wayland
       - qt6-wayland
@@ -17,5 +16,3 @@
       - wayland
       - wofi
       - xdg-desktop-portal-hyprland
-    state: absent
-
