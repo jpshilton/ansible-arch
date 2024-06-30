@@ -21,6 +21,12 @@
     src: "{{ role_path }}/files/hyprland.conf"
     dest: "/home/jp/.config/hypr/hyprland.conf"
 
+- name: Create a directory if it does not exist
+  ansible.builtin.file:
+    path: /home/jp/.config/waybar/hypr/
+    state: directory
+    mode: '0755'
+
 - copy:
     src: "{{ role_path }}/files/waybar"
     dest: "/home/jp/.config/waybar/hypr/config"
