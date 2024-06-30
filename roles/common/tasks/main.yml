@@ -1,6 +1,6 @@
 - name: install tools
   become: true
-  pacman:
+  package:
     update_cache: yes
     name:
       - bat
