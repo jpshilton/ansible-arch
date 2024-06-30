@@ -6,6 +6,7 @@
       - chromium
       - dolphin
       - dunst
+      - gtk3
       - hyprland
       - hyprpaper
       - qt5-wayland
