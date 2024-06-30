@@ -20,3 +20,7 @@
 - copy:
     src: "{{ role_path }}/files/hyprland.conf"
     dest: "/home/jp/.config/hypr/hyprland.conf"
+
+- copy:
+    src: "{{ role_path }}/files/waybar"
+    dest: "/home/jp/.config/waybar/hypr/config"
