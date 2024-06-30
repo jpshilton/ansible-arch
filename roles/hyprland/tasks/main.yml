@@ -18,9 +18,5 @@
       - xdg-desktop-portal-hyprland
 
 - copy:
-    username: jp
     src: "{{ role_path }}/files/hyprland.conf"
     dest: "{{ ansible_env.HOME }}/file.txt"
-    owner: "{{ ansible_user }}"  # Ensure the file is owned by the user
-    group: "{{ ansible_user }}"  # Ensure the file belongs to the user's group
-    mode: 0644   
